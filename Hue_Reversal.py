@@ -3,7 +3,10 @@
 from PIL import Image
 
 # 画像の読み込みとオープン
-img = Image.open("./画像パス")　#ここは適宜調整お願いします。
+#画像ファイルとこのスクリプトは同じディレクトリにお願いします。
+img = Image.open("./test.png")
+#下を使う際は適宜調整お願いします。
+# img = Image.open("./画像パス")
 img.show()
 
 # RGB に変換
